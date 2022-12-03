@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Alexandria:wght@300&family=Cinzel:wght@400;900&family=Fredoka+One&family=Josefin+Sans&family=Poppins&family=Reggae+One&family=Roboto&family=Solway&display=swap" rel="stylesheet">
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/css/bootstrap.min.css"
+      integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+      crossorigin="anonymous"
+    />
+
+    <title>StoryByMaahi</title>
+    <style>
+      .stry{
+        
+     font-family: 'Roboto', sans-serif;
+      }
+    </style>
+  </head>
+
+  <body class="bg-gradient-light">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <a class="navbar-brand" href="StoryByMaahi.html">StoryByMaahi</a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="StoryByMaahi.html"
+              >Home <span class="sr-only">(current)</span></a
+            >
+          </li>
+          <li class="nav-item">
+            <a
+              class="nav-link"
+              href="https://instagram.com/drishti_3114?igshid=YmMyMTA2M2Y="
+              >instagram</a
+            >
+          </li>
+          <li class="nav-item dropdown">
+            <a
+              class="nav-link dropdown-toggle"
+              href="#"
+              id="navbarDropdown"
+              role="button"
+              data-toggle="dropdown"
+              aria-haspopup="true"
+              aria-expanded="false"
+            >
+              More options
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="contactus.html">Contact Us</a>
+              <a class="dropdown-item" href="about.html">About Us</a>
+            </div>
+          </li>
+        </ul>
+        <form class="form-inline my-2 my-lg-0">
+          <input
+            class="form-control mr-sm-2"
+            type="search"
+            placeholder="Search"
+            aria-label="Search"
+          />
+          <button class="btn btn-outline-success my-2 my-sm-0" type="submit">
+            Search
+          </button>
+        </form>
+        <button
+          type="button"
+          class="btn btn-danger mx-2"
+          data-toggle="modal"
+          data-target="#loginModal"
+        >
+          Log In
+        </button>
+        <button
+          type="button"
+          class="btn btn-danger"
+          data-toggle="modal"
+          data-target="#signupModal"
+        >
+          Sign Up
+        </button>
+      </div>
+    </nav>
+
+    <!--login Modal -->
+    <div
+      class="modal fade"
+      id="loginModal"
+      tabindex="-1"
+      aria-labelledby="loginModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">Log In</h5>
+            <button
+              type="button"
+              class="close"
+              data-dismiss="modal"
+              aria-label="Close"
+            >
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <form>
+              <div class="form-group row">
+                <label for="inputEmail3" class="col-sm-2 col-form-label"
+                  >Email</label
+                >
+                <div class="col-sm-10">
+                  <input type="email" class="form-control" id="inputEmail3" />
+                </div>
+              </div>
+              <div class="form-group row">
+                <label for="inputPassword3" class="col-sm-2 col-form-label"
+                  >Password</label
+                >
+                <div class="col-sm-10">
+                  <input
+                    type="password"
+                    class="form-control"
+                    id="inputPassword3"
+                  />
+                </div>
+              </div>
+              <div class="form-group row">
+                <div class="col-sm-10">
+                  <button type="submit" class="btn btn-primary">Sign in</button>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!--signup Modal -->
+    <div
+      class="modal fade"
+      id="signupModal"
+      tabindex="-1"
+      aria-labelledby="signupModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">Sign Up</h5>
+            <button
+              type="button"
+              class="close"
+              data-dismiss="modal"
+              aria-label="Close"
+            >
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <form>
+              <div class="form-row">
+                <div class="form-group col-md-6">
+                  <label for="inputEmail4">Email</label>
+                  <input type="email" class="form-control" id="inputEmail4" />
+                </div>
+                <div class="form-group col-md-6">
+                  <label for="inputPassword4">Password</label>
+                  <input
+                    type="password"
+                    class="form-control"
+                    id="inputPassword4"
+                  />
+                </div>
+                <div class="form-group col-md-6">
+                  <label for="inputPassword4">Confirm Password</label>
+                  <input
+                    type="password"
+                    class="form-control"
+                    id="inputPassword4"
+                  />
+                </div>
+              </div>
+              <div class="form-group">
+                <label for="inputAddress">Address</label>
+                <input
+                  type="text"
+                  class="form-control"
+                  id="inputAddress"
+                  placeholder="1234 Main St"
+                />
+              </div>
+              <div class="form-group">
+                <label for="inputAddress2">Address 2</label>
+                <input
+                  type="text"
+                  class="form-control"
+                  id="inputAddress2"
+                  placeholder="Apartment, studio, or floor"
+                />
+              </div>
+              <div class="form-row">
+                <div class="form-group col-md-6">
+                  <label for="inputCity">City</label>
+                  <input type="text" class="form-control" id="inputCity" />
+                </div>
+                <div class="form-group col-md-4">
+                  <label for="inputState">State</label>
+                  <select id="inputState" class="form-control">
+                    <option selected>Choose...</option>
+                    <option>...</option>
+                  </select>
+                </div>
+                <div class="form-group col-md-2">
+                  <label for="inputZip">Zip</label>
+                  <input type="text" class="form-control" id="inputZip" />
+                </div>
+              </div>
+              <button type="submit" class="btn btn-primary">Sign up</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container my-4">
+      <div class="row">
+        <div class="col-md-12 text-center">
+          <h2>Arya - the fire </h2>
+          <h2>Chapter -1 </h2>
+          <h2>THE DARK NIGHT </h2>
+          <p class="stry text-left"> 
+It’s all starts from here . It’s a dark stormy night. Someone is running carring a littel baby in his arms. 
+Some from behind :- jay ! run (loudly) . <br>
+Many people are following them from behind ,some  of them are flying high in the air and some are astride on horses and other unseen and unknown animals or creatures .<br>
+Jay - a mutured looking man with grey eyes and wavy hairs ,fair looking not so muscular and not so thin , he is looking injured badly . 
+jay is holding his wifes hand in his left hand and in other hand is holding a golden and green MAGICAL WAND they both are running as fast as they can . <br>
+His wife is a young looking women crying loundly he has straight long brown hair and wearing a white kutra suit  and she is so injured that evn she can run hardly .her eyes are blue in color and deep as they can be .Her name is meera samartha . they both are running fast to save there lives . Her husband is trying to protect her from those people who are running behind them to kill them from all there heart .<br><br>
+
+One more man is running behind the holding a baby in his arms and trying to save the baby till his last breath .he has long hairs ,smart looking and also looking worried .he is fair in color and holding a black and green crystal looking wand spelling on the peoples who are following them .<br>
+suddenly one old and creppy looking man spell a MANTRA and a large fire beggins by his mantra all around them .Now ,its seems impossible to escape from that dard forest in this dark knight . there are 4 peoples in this forest including a baby .three of them looking like they want to saves the baby’s life first .<br>
+
+JAY-  Aadi, run from the tunnel under the water .take her with you please ! (crying ) <br>
+
+Aaditya - NO! i can’t . I can’t leave both of you to die. come with me .we can make it .come plz
+ (emotionally, seeing in his eyes )<br>
+
+Meera - Please , we don’t have time .they must be  coming in 2 or 3 min. please Aadi go take her with you please ! we will hold them to reach you . please go . Don’t waste time we can’t save her without holding them to reach her . we  need somebody to protect her we can’t protect her because they will find us .whenever they want . they will not let us go .please the can’t find you please go ........ please ! i beg you (shouting crying ) please GO .<br>
+
+JAY- GO! GO! please there is no one we can trust more than you .please GO ! <br>
+
+Aaditya hugged them both and crying- ( i’ll ,i,i’ll try to raise her like my own daughter , please ! please , try to stay alive please. <br><br>
+
+Aadi covered the baby under his robe and started running towards the river . and both Jay and meera trying to fight as much as they can to provide time to aaditya to escape from there . As soon as aadi reached the river ,he heard a loud scream coming from the forest and he just shivered , its seems like he realised , that meera is no more . she is dead . he wants to go back but he can’t because of the last promise he have gave to meera . so he decided to keep running . he jumped in the river . but he have not to face problems related to breath and drawing even the baby is not having problem in breathing under the water . suddenly he raised his wand and spell a mantra . they both have reached a unknown destination . even Aaditya don’t know this place .suddenly Aaditya fainted in the side of they river and baby is crying ..... crying so badly .
+          </p>
+        </div>
+    </div>
+</div>
+        
+    <div class="container">
+      <footer
+        class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top"
+      >
+        <p class="col-md-4 mb-0 text-muted">© 2022 Company, Inc</p>
+
+        <a
+          href="/"
+          class="col-md-4 d-flex align-items-center justify-content-center mb-3 mb-md-0 me-md-auto link-dark text-decoration-none"
+        >
+          <svg class="bi me-2" width="40" height="32">
+            <use xlink:href="#bootstrap"></use>
+          </svg>
+        </a>
+
+        <ul class="nav col-md-4 justify-content-end">
+          <li class="nav-item">
+            <a href="#" class="nav-link px-2 text-muted">Home</a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link px-2 text-muted">Features</a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link px-2 text-muted">Pricing</a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link px-2 text-muted">FAQs</a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link px-2 text-muted">About</a>
+          </li>
+        </ul>
+      </footer>
+    </div>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.14.3/dist/umd/popper.min.js"
+      integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/js/bootstrap.min.js"
+      integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
